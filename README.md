@@ -2,9 +2,11 @@
 Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analysis results, oriented around processing input/output from bioinformatics tools developed by the Hartwig Medical Foundation (HMF: https://github.com/hartwigmedical/hmftools) and the Papenfuss Lab (https://github.com/PapenfussLab).  In particular, Tumor-GRaPPLer is centered around processing data for GRIDSS, PURPLE, and LINX.
 
 # Background
-  GRIDSS (Genome rearrangement IDentification Software Suite)
-  PURPLE (purity ploidy estimator)
-  LINX ()
+GRIDSS (Genome rearrangement IDentification Software Suite)
+ 
+PURPLE (purity ploidy estimator)
+
+LINX ()
 
 # Tools used by this workflow
 ## Sequence alignment and processing (DNA and RNA-seq)
