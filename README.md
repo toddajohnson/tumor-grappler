@@ -11,22 +11,22 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 - BWA 0.7.17
 - samtools
 - bedtools
--STAR 
--Isofox 1.3
--AMBER (B-allele frequency and contamination)
--COBALT (read depth coverage calculation)
+- STAR 
+- Isofox 1.3
+- AMBER (B-allele frequency and contamination)
+- COBALT (read depth coverage calculation)
 ## Annotation
--Annovar
--snpEff
+- Annovar
+- snpEff
 ## Mutation and structural variant (SV) calling
--SAGE 3.2
--GRIDSS 2.12.2 (Breakend/breakpoint detection from WGS data)
--GRIPSS 2.0 (GRIDSS SV filtering)
+- SAGE 3.2
+- GRIDSS 2.12.2 (Breakend/breakpoint detection from WGS data)
+- GRIPSS 2.0 (GRIDSS SV filtering)
 ## Tumor genome variant integration
--PURPLE 3.2.2
--LINX 1.17
+- PURPLE 3.2.2
+- LINX 1.17
 ## Mutational signature analysis
-SigProfiler
+- SigProfiler
 
 ## Copy number segment analysis
 
