@@ -3,8 +3,8 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 
 # Background
 - GRIDSS (Genome rearrangement IDentification Software Suite)
-- PURPLE (purity ploidy estimator)
-- LINX ()
+- PURPLE (PURity PLoidy Estimator)
+- LINX (Tool for annotation, interpretation, and visualizing of SVs)
 
 # Tools used by this workflow
 ## Sequence alignment and processing (DNA and RNA-seq)
@@ -19,9 +19,9 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 - Annovar
 - snpEff
 ## Mutation and structural variant (SV) calling
-- SAGE 3.2
+- Somatic Alterations in Genome (SAGE) 2.8
 - GRIDSS 2.12.2 (Breakend/breakpoint detection from WGS data)
-- GRIPSS 2.0 (GRIDSS SV filtering)
+- GRIDSS Post Somatic Software (GRIPSS) 1.11/2.0
 ## Tumor genome variant integration
 - PURPLE 3.2.2
 - LINX 1.17
