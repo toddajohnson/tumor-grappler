@@ -6,6 +6,10 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 - PURPLE (PURity PLoidy Estimator)
 - LINX (Tool for annotation, interpretation, and visualizing of SVs)
 
+![WGS analysks workflow](/assets/images/cancer_genome_analysis.pdf)
+
+![RNA-seq analysis workflow](/assets/images/tumor_transcript_analysis.pdf)
+
 # Tools used by this workflow
 ## Sequence alignment and processing (DNA and RNA-seq)
 - BWA 0.7.17
