@@ -12,7 +12,7 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 ![WGS analysks workflow](/assets/images/cancer_genome_analysis.png)
 
 
-![RNA-seq analysis workflow](/assets/images/tumor_transcript_analysis.png | width=50)
+![RNA-seq analysis workflow](/assets/images/tumor_transcript_analysis.png | width=100)
 
 # Tools used by this workflow
 ## Sequence alignment and processing (DNA and RNA-seq)
