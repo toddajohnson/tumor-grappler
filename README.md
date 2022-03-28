@@ -1,5 +1,5 @@
 # tumor-grappler
-Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analysis results, oriented around processing input/output from bioinformatics tools developed by the Hartwig Medical Foundation (HMF: https://github.com/hartwigmedical/hmftools) and the Papenfuss Lab (https://github.com/PapenfussLab).  In particular, Tumor-GRaPPLer is centered around processing data for GRIDSS, PURPLE, and LINX.
+Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analysis results, oriented around processing input/output from bioinformatics tools developed by the Hartwig Medical Foundation (HMF: https://github.com/hartwigmedical/hmftools) and the Papenfuss Lab (https://github.com/PapenfussLab).  In particular, Tumor-GRaPPLer is centered around processing output from GRIDSS, PURPLE, and LINX, which analyzes small variants (germline and somatic SNVs and INDELs), structural variants, and copy number (CN) data to determine sample quality parameters and candidate driver variants.  Downstream WGS analyses include GISTIC2, CNApp, CHORD, SigProfiler, and maftools.
 
 # Background
 - GRIDSS (Genome rearrangement IDentification Software Suite)
@@ -16,7 +16,7 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 - BWA 0.7.17
 - samtools
 - bedtools
-- STAR 
+- STAR 2.7.9a
 - Isofox 1.3
 - AMBER (B-allele frequency and contamination)
 - COBALT (read depth coverage calculation)
@@ -32,9 +32,13 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 - LINX 1.17
 ## Mutational signature analysis
 - SigProfiler
-
 ## Copy number segment analysis
-
+- GISTIC2
+- CNApp
+## Other analyses
+- CHORD (Homologous recombination deficiency estimation)
+- maftools
+- 
 # Installation
 
 # Running the workflow
