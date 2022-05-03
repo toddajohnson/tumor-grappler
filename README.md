@@ -1,5 +1,5 @@
 # tumor-grappler
-Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analysis results, oriented around processing input/output from bioinformatics tools developed by the Hartwig Medical Foundation (HMF: https://github.com/hartwigmedical/hmftools) and the Papenfuss Lab (https://github.com/PapenfussLab).  In particular, Tumor-GRaPPLer is centered around processing output from GRIDSS, PURPLE, and LINX, which analyzes small variants (germline and somatic SNVs and INDELs), structural variants, and copy number (CN) data to determine sample quality parameters and candidate driver variants.  Downstream WGS analyses include GISTIC2, CNApp, CHORD, SigProfiler, and maftools.
+Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analysis results, oriented around processing input/output from bioinformatics tools developed by the Hartwig Medical Foundation (HMF: https://github.com/hartwigmedical/hmftools) and the Papenfuss Lab (https://github.com/PapenfussLab).  In particular, Tumor-GRaPPLer is centered around processing output from GRIDSS, PURPLE, and LINX, which analyzes small variants (germline and somatic SNVs and INDELs), structural variants, and copy number (CN) data to determine sample quality parameters and candidate driver variants.  Downstream WGS analyses include GISTIC2, CNApp, CHORD, SigProfiler, and maftools, as well as in-house R code to process and summarize the data.
 
 # Background
 - GRIDSS (Genome rearrangement IDentification Software Suite)
@@ -33,6 +33,7 @@ Tumor-GRaPPLer is a workflow for integrating whole genome sequencing data analys
 ## Mutational signature analysis
 - SigProfiler
 ## Copy number segment analysis
+- tumor-grappler/CNA_analysis (R code for CNA frequency summarization, Circos plot creation, chromosome-arm level CNA plot)
 - GISTIC2
 - CNApp
 ## Other analyses
