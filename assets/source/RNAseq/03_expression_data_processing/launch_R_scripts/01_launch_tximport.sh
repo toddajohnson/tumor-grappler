@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LANG=en_US.UTF-8
+
 RUN_DIR=${RUN_DIR}
 
 . ${RUN_DIR}/config_files/common_config.sh

@@ -25,5 +25,5 @@ vmem="5G"
 mkdir -p ${base_logdir}
 mkdir -p ${logdir}
 
-logname="log_01_tximport"
-qsub -pe def_slot ${threads} -l s_vmem=${vmem} -N ${logname} -o ${logdir} -q '!mjobs_rerun.q' -j y -cwd ${RNAseq_cg_pipeline_dir}/03_expression_data_processing/01_launch_tximport.sh
+logname="log_02_normalize_and_filter"
+qsub -pe def_slot ${threads} -l s_vmem=${vmem} -N ${logname} -o ${logdir} -q '!mjobs_rerun.q' -j y -cwd -S /usr/bin/bash -v RUN_DIR=${RUN_DIR} ${RNAseq_cg_pipeline_dir}/03_expression_data_processing/launch_R_scripts/02_launch_normalize_and_filter.sh

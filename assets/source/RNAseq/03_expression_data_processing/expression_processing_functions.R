@@ -80,6 +80,8 @@ normalize_and_filter_counts <- function( input.processed.tximport.data.ls, input
 	adjTPM <- txi$abundance
 	adjTPM.column.sums <- colSums(adjTPM)
 	
+	print(paste('Printing sums of adjusted TPM:  Should be close to 1 million'))
+	
 	print( adjTPM.column.sums )
 
 	cts <- txi$counts

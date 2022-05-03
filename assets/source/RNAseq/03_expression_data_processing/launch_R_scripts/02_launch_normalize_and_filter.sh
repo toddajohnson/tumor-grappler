@@ -2,19 +2,10 @@
 
 export LANG=en_US.UTF-8
 
-working_dir="$PWD"
+RUN_DIR=${RUN_DIR}
 
-dir_name=${working_dir}
-dir_base=$(basename ${dir_name})
+. ${RUN_DIR}/config_files/common_config.sh
+. ${HOME}/.R-4.1.0_setup.sh
 
-while [[ ! "${dir_base}" == "sh" ]]; do
-	dir_name=$(dirname ${dir_name})
-	dir_base=$(basename ${dir_name})
-done
-
-dir_name=$(dirname ${dir_name})
-
-. ${dir_name}/config_files/common_config.sh
-. ~/.R-4.1.0_setup.sh
-
-Rscript ${RNAseq_cg_pipeline_dir}/03_expression_data_processing/02_normalize_and_filter.R
+echo "Launching normalize_and_filter R script for ${study_name}"
+Rscript ${RNAseq_cg_pipeline_dir}/03_expression_data_processing/02_normalize_and_filter.R ${RUN_DIR}
